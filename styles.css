@@ -1,0 +1,62 @@
+body {
+    margin: 0px;
+    height: 100%;
+    background-color: gray;
+}
+.tudo {
+    /* usar isso para retornar ao normal */
+    text-align: center;
+    background-color: gainsboro ;
+    width: 25%;
+    margin-top: 280px;
+    margin-left: 700px;
+}
+#titulo {
+    font-size: 50px;
+}
+#subtitulo {
+    font-size: 40px;
+}
+#entrada {
+    font-size: 20px;
+}
+#saida {
+    font-size: 20px;
+}
+button {
+    font-size: 30px;
+}
+.marca {
+    -webkit-text-stroke: 1px black;
+    position: fixed;
+    bottom: 5px;
+    left: 10px;
+    background-color: gainsboro;
+}
+.marca:hover {
+    left: 35px;
+    transform: scale(1.5);
+}
+/* .zp {
+    /* margin-top: 100px; */
+    /* margin-left: 630px;
+    height: 100px;
+    width: 100px;
+    text-align: center; */
+/* } */
+/* Media Query para telas pequenas */
+@media (max-width: 600px) {
+    .div-centralizada {
+      width: 90%; /* Aumenta a largura em telas menores */
+    }
+  }
+  
+  /* Media Query para telas médias */
+  @media (min-width: 1300px) and (max-width: 90000px) {
+    .tudo {
+        height: 440px;
+        width: 25%; /* Ajusta a largura para telas médias */
+        margin-top: 120px;
+        margin-left: 520px;
+    }
+  }
